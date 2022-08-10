@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    padding: 40px;
+}
+
+h1 {
+    padding-right: 165px;
+}
+
+.blog {
+    padding-left: 165px;
+}
+
+.cabecalho__pesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+.icone__lupa {
+    position: absolute;
+    top: 126px;
+    left: 248px
+}
+
+.input {
+    width: 900px;
+    height: 64px;
+    margin: 0 0 40px;
+    padding-left: 64px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.contaner-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contaner-conteudo1 {
+    font-family: 'Lexend Deca', sans-serif;
+    border: solid 1px greenyellow;
+    width: 900px;
+    height: 127px;
+    margin: 74px 0 37px 0;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.contaner-conteudo2 {
+    font-family: 'Lexend Deca', sans-serif;
+    border: solid 1px greenyellow;
+    width: 900px;
+    height: 145px;
+    border-radius: 5px;
+}
+   
+
+.contaner-conteudo3 {
+    font-family: 'Lexend Deca', sans-serif;
+    border: solid 1px greenyellow;
+    width: 900px;
+    height: 102px;
+    margin-top: 37px;
+    border-radius: 5px;
+    
+}
+
+.contaner-conteudo4 {
+    font-family: 'Lexend Deca', sans-serif;
+    border: solid 1px greenyellow;
+    width: 900px;
+    height: 147px;
+    margin: 37px 0 74px 0;
+    border-radius: 5px;
+}
